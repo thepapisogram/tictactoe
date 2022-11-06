@@ -1,0 +1,25 @@
+#board{
+    height: 340px;
+    width: 340px;
+    border: 2px solid #ffc107aa!important;
+}
+
+.board-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100px;
+    transition: 100ms ease-in-out!important;
+}
+.bx-x{
+    font-size: 70px;    
+}
+
+.bg-black{
+    background: #121212;
+}
+
+#start{
+    box-shadow: none!important;
+}
