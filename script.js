@@ -17,6 +17,7 @@ while (players.playerTwo == null || players.playerTwo == '') {
 }
 
 $('#p1_name, #turn').text(players.playerOne);
+$('#turn2').text(`${players.playerOne}'s Turn`);
 $('#p2_name').text(players.playerTwo);
 
 let shapeClass = {
@@ -48,9 +49,11 @@ var board = {
 const switchTurn = (who) => {
     if(who == 2){
         $('#turn').text(players.playerOne);
+        $('#turn2').text(`${players.playerOne}'s Turn`);
         turn = 1;
     }else{
         $('#turn').text(players.playerTwo);
+        $('#turn2').text(`${players.playerTwo}'s Turn`);
         turn = 2;
     }
 }
@@ -113,11 +116,11 @@ const declareWin = (player) => {
     if (player == playerPlaceholders.playerOne){
         scores.playerOne ++;
         $('#p1_score').text(scores.playerOne);
-        $('#last_game').text(`${players.playerOne} Won`);
+        $('#last_game, #turn2').text(`${players.playerOne} Won`);
     } else{
         scores.playerTwo ++;
         $('#p2_score').text(scores.playerTwo);
-        $('#last_game').text(`${players.playerTwo} Won`);
+        $('#last_game, #turn2').text(`${players.playerTwo} Won`);
     }
     newGame();
 }
