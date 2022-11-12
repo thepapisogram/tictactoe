@@ -23,3 +23,8 @@
 #start{
     box-shadow: none!important;
 }
+
+.space-fix{
+    border-left: 3px solid black!important;
+    border-right: 3px solid black!important;
+}

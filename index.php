@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIC TAC TOE</title>
-    <!-- <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.css"> -->
-    <!-- <link rel="stylesheet" href="../vendor/boxicons/css/boxicons.css"> -->
+    <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../vendor/boxicons/css/boxicons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
-    <!-- <script src="../vendor/jquery.js"></script> -->
+    <script src="../vendor/jquery.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
@@ -52,15 +52,15 @@
             <h1 class="text-light"><span id="turn2"></span></h1>
             <div class="row m-0 rounded p-2" id="board">
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a1"></div>
-                <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a2"></div>
+                <div class="bg-dark text-warning rounded col-4 space-fix bx board-area" data-played-spot="0" data-board-location="a2"></div>
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a3"></div>
         
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="b1"></div>
-                <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="b2"></div>
+                <div class="bg-dark text-warning rounded col-4 space-fix bx board-area" data-played-spot="0" data-board-location="b2"></div>
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="b3"></div>
         
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="c1"></div>
-                <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="c2"></div>
+                <div class="bg-dark text-warning rounded col-4 space-fix bx board-area" data-played-spot="0" data-board-location="c2"></div>
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="c3"></div>
             </div>
             <div>
