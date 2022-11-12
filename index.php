@@ -49,7 +49,7 @@
 
 
         <div class="col row m-0 justify-content-center align-items-between text-center p-5 bg-black">
-            <h1 class="text-light"><span id="turn2"></span></h1>
+            <h1 class="d-block d-md-none text-light"><span id="turn2"></span></h1>
             <div class="row m-0 rounded p-2" id="board">
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a1"></div>
                 <div class="bg-dark text-warning rounded col-4 space-fix bx board-area" data-played-spot="0" data-board-location="a2"></div>
