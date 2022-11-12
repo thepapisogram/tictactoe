@@ -110,6 +110,7 @@ const processPlay = (placeholder) => {
 const gameDrawn = () => {
     $('#last_game').text('Nobody Won');
     newGame();
+    $('#turn2').text(`Nobody Won`);
 }
 
 const declareWin = (player) => {
@@ -156,5 +157,6 @@ $('#start').click(function(){
         }
         $(this).toggleClass('disabled').text('Game Ongoing...');
         playing = 1;
+        switchTurn(turn);
     }
 })
