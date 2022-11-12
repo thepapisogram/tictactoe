@@ -52,15 +52,15 @@
             <h1 class="text-light"><span id="turn2"></span></h1>
             <div class="row m-0 rounded p-2" id="board">
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a1"></div>
-                <div class="bg-dark text-warning rounded col mx-1 bx board-area" data-played-spot="0" data-board-location="a2"></div>
+                <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a2"></div>
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="a3"></div>
         
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="b1"></div>
-                <div class="bg-dark text-warning rounded col mx-1 bx board-area" data-played-spot="0" data-board-location="b2"></div>
+                <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="b2"></div>
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="b3"></div>
         
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="c1"></div>
-                <div class="bg-dark text-warning rounded col mx-1 bx board-area" data-played-spot="0" data-board-location="c2"></div>
+                <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="c2"></div>
                 <div class="bg-dark text-warning rounded col-4 bx board-area" data-played-spot="0" data-board-location="c3"></div>
             </div>
             <div>

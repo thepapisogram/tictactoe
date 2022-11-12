@@ -1,6 +1,6 @@
 #board{
-    height: 340px;
-    width: 340px;
+    height: 340px!important;
+    width: 340px!important;
     border: 2px solid #ffc107aa!important;
 }
 
